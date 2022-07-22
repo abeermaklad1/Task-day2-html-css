@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 100px auto;
+    /* box-shadow: 4px 7px 15px -3px rgba(55, 172, 204, 0.5);
+    background-color: rgb(227, 226, 241);
+    border-radius: 5px; */
+    padding: 30px;
+}
+.container h1{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #9c6131;
+}
+.container .btns{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+.container .btns button{
+    margin: 10px;
+    padding: 5px;
+    background-color: #fff;
+    border: solid 1px #9c6131;
+    width: 20%;
+    height: 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.linecontainer{
+    height: 45px;
+    padding-top: 20px;
+}
+.container .btns  .line{
+    height: 3px;
+    width: 100%;
+    background-color: #f16529;
+}
+.container .btns .rect{
+    height: 45px;
+    width: 50px;
+    background-color: #f16529;
+    margin: auto;
+}
+.container .btns .circle{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #f16529;
+    margin: auto;
+}
+
+.container .svg{
+    width: 90%;
+    height: 400px;
+    margin:10px auto;
+    text-align: center;
+}
+.container .svg svg{
+    border: solid 9px #9c6531;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}

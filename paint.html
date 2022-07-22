@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Board</title>
+    <link rel="stylesheet" href="css/paint.css" />
+</head>
+
+<body>
+    <h1> Art Board </h1>
+
+    <div class="container">
+        <div class="contentLeft">
+            <h2>Fill Style</h2>
+            <button id="colorBtn" class="change" id="changeFill">
+                Change
+                <input type="color" id="colorValue">
+            </button>
+            <h2>Stroke Width</h2>
+            <button  id="widthBtn" class="change" id="changeStroke">Change
+                <input type="number" name="" id="widthValue">
+            </button>
+        </div>
+
+        <div class="contentRight">
+            <div class="btns">
+                <button id="polygonBtn">
+                    <div class="polygonContainer">
+                        <div class="polygon"></div>
+                    </div>
+                </button>
+                <button id="lineBtn">
+                    <div class="linecontainer">
+                        <div class="line"></div>
+                    </div>
+                </button>
+                <button id="rectBtn">
+                    <div class="rect"></div>
+                </button>
+                <button id="circleBtn">
+                    <div class="circle"></div>
+                </button>
+                <button id="eraserBtn">
+                    <div class="eraserContainer">
+                        <div class="eraser"></div>
+                    </div>
+                </button>
+            </div>
+            <div class="canvas">
+                <canvas id="myCanvas" width="665" height="400"></canvas>
+            </div>
+        </div>
+
+        <div class="clr"></div>
+
+    </div> 
+        <script src="js/paint.js"></script>
+</body>
+
+</html>

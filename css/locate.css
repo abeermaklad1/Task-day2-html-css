@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    /* background-color: rgb(134, 136, 233); */
+    height: 100vh;
+    text-align: center;
+  }
+
+  h1 {
+    color: rgb(24, 8, 59);
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .container {
+    width: 65%;
+    height: 75%;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(236, 170, 253)al;
+    box-shadow: 4px 7px 10px -3px rgb(163, 224, 243);
+  }
+
+  #map {
+    height: 100%;
+    border-radius: 20px;
+  }
